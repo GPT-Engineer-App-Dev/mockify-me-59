@@ -1,15 +1,16 @@
 // Complete the Index page component here
 // Use chakra-ui
-import { Button } from "@chakra-ui/react"; // example
-import { FaPlus } from "react-icons/fa"; // example - use react-icons/fa for icons
+import { Button, Card } from "@chakra-ui/react";
+import { FaPlus } from "react-icons/fa";
 
 const Index = () => {
-  // TODO: Create the website here!
   return (
-    <Button>
-      Hello world! <FaPlus />
-    </Button>
-  ); // example
+    <Card backgroundColor="gray.100" padding={6}>
+      <Button>
+        Hello world! <FaPlus />
+      </Button>
+    </Card>
+  );
 };
 
 export default Index;
